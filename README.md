@@ -15,7 +15,7 @@ We are also working on adding the following features:
 * Integration with the [NATS High-Performance server](https://github.com/nats-io/gnatsd).
 * Elastic scaling of workflows while enabling efficient utilization of cloud resources using our end-to-end throughput versus latency optimization module.
 
-## GoStream Module for Computer Vision
+## GoStream Module for Computer Vision (Currently available on request)
 
 We provide a module for programming online computer vision algorithms processing image and video streams. The module supports the following features,
 
@@ -23,14 +23,14 @@ We provide a module for programming online computer vision algorithms processing
 * GNU Plots for displaying dynamic charts using [Go-Gnuplot](https://github.com/sbinet/go-gnuplot)
 * OpenCV support using [Go-OpenCV](https://github.com/lazywei/go-opencv)
 
-## GoStream Module for Machine Learning
+## GoStream Module for Machine Learning (Currently available on request)
 
 Learning from data streams is called [data stream mining](https://en.wikipedia.org/wiki/Data_stream_mining) and it aims to extract information models and structures from continuous and possibly infinite streams. We are currently supporting the following algorithms:
 
 * Online Hierarchical Clustering [Kanen et al., ICDM'09](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5360250&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5360250)
 * Bayesian Optimization [See [Snoek et al. paper](https://arxiv.org/pdf/1206.2944.pdf)]
 
-## GoStream Module for Automatic Algorithm Configuration
+## GoStream Module for Automatic Algorithm Configuration (Currently available on request)
 
 As workflow streaming operators implements different algorithms, it becomes hard to manually identify the best parameter settings for the best performance of every algorithm. The algorithm configuration module implements automatic methods for adaptive parameters selection and tuning. In literature, the problem is refered to by [Self-tuning](https://en.wikipedia.org/wiki/Self-tuning) and [Autonomic computing](https://en.wikipedia.org/wiki/Autonomic_computing). The module provides the following features,
 
